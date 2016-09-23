@@ -25,6 +25,10 @@
                 <behavior>Edit</behavior>
                 <field>Order__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Rank__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -59,10 +63,14 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Playlist__c</fields>
+        <fields>Artist__c</fields>
         <relatedList>Playlist_Item__c.Song__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>User__c</fields>
+        <fields>Artist__c</fields>
         <relatedList>Play_History__c.Song__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

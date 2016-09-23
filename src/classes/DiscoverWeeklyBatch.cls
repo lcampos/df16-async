@@ -77,6 +77,7 @@ global with sharing class DiscoverWeeklyBatch implements Database.Batchable<SObj
                 lPlaylistItems.add(pli);
             }
 
+
         }
 
         //create playlist item
@@ -84,7 +85,7 @@ global with sharing class DiscoverWeeklyBatch implements Database.Batchable<SObj
     }
 
     global void finish(Database.BatchableContext BC){
-        //Send email to admin ?
+
     }
 
 }

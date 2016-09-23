@@ -3,7 +3,7 @@
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
+        <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>Information</label>
         <layoutColumns>
@@ -25,7 +25,7 @@
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
+        <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>System Information</label>
         <layoutColumns>
@@ -58,6 +58,7 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Artist__c</fields>
         <fields>Song__c</fields>
         <fields>CREATED_DATE</fields>
         <relatedList>Playlist_Item__c.Playlist__c</relatedList>
