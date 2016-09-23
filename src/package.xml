@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>DiscoverWeeklyBatch</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Spotify</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Album__c</members>
+        <members>Artist__c</members>
+        <members>Play_History__c</members>
+        <members>Playlist_Item__c</members>
+        <members>Playlist__c</members>
+        <members>Related_Artists__c</members>
+        <members>Song__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Artist__c</members>
+        <members>Playlist__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Album__c-Album Layout</members>
+        <members>Artist__c-Artist Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Play_History__c-Play History Layout</members>
+        <members>Playlist_Item__c-Playlist Item Layout</members>
+        <members>Playlist__c-Playlist Layout</members>
+        <members>Related_Artists__c-Related Artist Layout</members>
+        <members>Song__c-Song Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>37.0</version>
+</Package>

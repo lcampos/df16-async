@@ -1,0 +1,167 @@
+*.class
+.classpath
+.project
+.idea/
+.settings
+hgrate.log
+.DS_Store
+*.iml
+*.ipr
+*.iws
+*.resource
+retrieved/
+build/properties/credentials.properties
+Referenced Packages
+.externalToolBuilders/
+salesforce.schema
+build/node_modules/
+build/tmp/
+npm-debug.log
+
+#ignore credential files
+sfdc-build.properties
+credentials.json
+credentials-validation.json
+
+# Un-comment any of the following standard components if
+# you need to include any of these in your project
+
+#unfiled emails
+src/email/unfiled$public
+
+#default communities available in dev org
+src/communities/Internal Community.community
+
+#default home layouts for dev orgs
+src/homePageLayouts/DE Default.homePageLayout
+
+#standard applications
+src/applications/standard__AppLauncher.app
+src/applications/standard__Chatter.app
+src/applications/standard__Community.app
+src/applications/standard__Content.app
+src/applications/standard__Marketing.app
+src/applications/standard__Platform.app
+src/applications/standard__Sales.app
+src/applications/standard__Service.app
+src/applications/standard__ServiceConsole.app
+src/applications/standard__Sites.app
+src/applications/standard__Work.app
+
+#standard roles from dev org
+src/roles/CEO.role
+src/roles/CFO.role
+src/roles/COO.role
+src/roles/ChannelSalesTeam.role
+src/roles/CustomerSupportInternational.role
+src/roles/CustomerSupportNorthAmerica.role
+src/roles/DirectorChannelSales.role
+src/roles/DirectorDirectSales.role
+src/roles/EasternSalesTeam.role
+src/roles/InstallationRepairServices.role
+src/roles/MarketingTeam.role
+src/roles/SVPCustomerServiceSupport.role
+src/roles/SVPHumanResources.role
+src/roles/SVPSalesMarketing.role
+src/roles/VPInternationalSales.role
+src/roles/VPMarketing.role
+src/roles/VPNorthAmericanSales.role
+src/roles/WesternSalesTeam.role
+
+#standard assignment rules
+src/assignmentRules/Case.assignmentRules
+src/assignmentRules/Lead.assignmentRules
+
+#standard sharing rules
+src/opportunitySharingRules/Opportunity.sharingRules
+src/leadSharingRules/Lead.sharingRules
+src/accountSharingRules/Account.sharingRules
+src/caseSharingRules/Case.sharingRules
+src/contactSharingRules/Contact.sharingRules
+
+#standard settings
+src/settings/Case.settings
+src/settings/ChatterAnswers.settings
+src/settings/Company.settings
+src/settings/Contract.settings
+src/settings/Entitlement.settings
+src/settings/Knowledge.settings
+src/settings/Mobile.settings
+src/settings/Security.settings
+src/settings/Ideas.settings
+
+#standard quickActions
+src/quickActions/Case.NewChildCase.quickAction
+src/quickActions/CollaborationGroup.NewGroupMember.quickAction
+src/quickActions/CollaborationGroup.NewGroupRecord.quickAction
+src/quickActions/FeedItem.NewTaskFromFeedItem.quickAction
+src/quickActions/LogACall.quickAction
+src/quickActions/NewAccount.quickAction
+src/quickActions/NewCase.quickAction
+src/quickActions/NewContact.quickAction
+src/quickActions/NewEvent.quickAction
+src/quickActions/NewGroup.quickAction
+src/quickActions/NewLead.quickAction
+src/quickActions/NewNote.quickAction
+src/quickActions/NewOpportunity.quickAction
+src/quickActions/NewTask.quickAction
+src/quickActions/Task.Defer.quickAction
+src/quickActions/Task.Defer_0.quickAction
+src/quickActions/Task.EditDescription.quickAction
+src/quickActions/Task.EditDescription_0.quickAction
+src/quickActions/Task.UpdatePriority.quickAction
+src/quickActions/Task.UpdatePriority_0.quickAction
+src/quickActions/Task.UpdateStatus.quickAction
+src/quickActions/Task.UpdateStatus_0.quickAction
+
+#standard page layouts
+src/layouts/Account-Account %28Marketing%29 Layout.layout
+src/layouts/Account-Account %28Sales%29 Layout.layout
+src/layouts/Account-Account %28Support%29 Layout.layout
+src/layouts/Account-Account Layout.layout
+src/layouts/Asset-Asset Layout.layout
+src/layouts/Case-Case %28Marketing%29 Layout.layout
+src/layouts/Case-Case %28Sales%29 Layout.layout
+src/layouts/Case-Case %28Support%29 Layout.layout
+src/layouts/Case-Case Layout.layout
+src/layouts/CaseClose-Close Case Layout.layout
+src/layouts/Contact-Contact %28Marketing%29 Layout.layout
+src/layouts/Contact-Contact %28Sales%29 Layout.layout
+src/layouts/Contact-Contact %28Support%29 Layout.layout
+src/layouts/Contact-Contact Layout.layout
+src/layouts/ContentVersion-Content Version Layout.layout
+src/layouts/Contract-Contract Layout.layout
+src/layouts/DandBCompany-D%26B Company Layout.layout
+src/layouts/DuplicateRecordSet-Duplicate Record Set Layout.layout
+src/layouts/Event-Event Layout.layout
+src/layouts/Global-Global Layout.layout
+src/layouts/Idea-Idea Layout.layout
+src/layouts/Lead-Lead %28Marketing%29 Layout.layout
+src/layouts/Lead-Lead %28Sales%29 Layout.layout
+src/layouts/Lead-Lead %28Support%29 Layout.layout
+src/layouts/Lead-Lead Layout.layout
+src/layouts/Macro-Macro Layout.layout
+src/layouts/Opportunity-Opportunity %28Marketing%29 Layout.layout
+src/layouts/Opportunity-Opportunity %28Sales%29 Layout.layout
+src/layouts/Opportunity-Opportunity %28Support%29 Layout.layout
+src/layouts/Opportunity-Opportunity Layout.layout
+src/layouts/OpportunityLineItem-Opportunity Product Layout.layout
+src/layouts/Order-Order Layout.layout
+src/layouts/OrderItem-Order Product Layout.layout
+src/layouts/Pricebook2-Price Book Layout.layout
+src/layouts/PricebookEntry-Price Book Entry Layout.layout
+src/layouts/Product2-Product Layout.layout
+src/layouts/SocialPersona-Social Persona Layout.layout
+src/layouts/Solution-Solution Layout.layout
+src/layouts/Task-Task Layout.layout
+src/layouts/User-User Layout.layout
+src/layouts/WorkCoaching-Coaching Layout.layout
+src/layouts/WorkFeedback-Feedback Layout.layout
+src/layouts/WorkFeedbackQuestion-Feedback Question Layout.layout
+src/layouts/WorkFeedbackQuestionSet-Feedback Question Set Layout.layout
+src/layouts/WorkFeedbackRequest-Feedback Request Layout.layout
+src/layouts/WorkFeedbackTemplate-Feedback Template Layout.layout
+src/layouts/WorkGoal-Goal Layout.layout
+src/layouts/WorkGoalCollaborator-Goal Collaborator Layout.layout
+src/layouts/WorkGoalLink-Goal Link Layout.layout
+src/layouts/WorkPerformanceCycle-Performance Cycle Layout.layout
