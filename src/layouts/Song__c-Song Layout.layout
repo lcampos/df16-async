@@ -71,6 +71,7 @@
         <fields>NAME</fields>
         <fields>User__c</fields>
         <fields>Artist__c</fields>
+        <fields>CREATED_DATE</fields>
         <relatedList>Play_History__c.Song__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

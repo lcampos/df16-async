@@ -105,6 +105,15 @@
         <unique>false</unique>
     </fields>
     <label>Song</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Rank__c</columns>
+        <columns>Order__c</columns>
+        <columns>Album__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Song Name</label>
         <trackHistory>false</trackHistory>

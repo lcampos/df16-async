@@ -57,6 +57,7 @@
         <fields>NAME</fields>
         <fields>Length__c</fields>
         <fields>Order__c</fields>
+        <fields>Rank__c</fields>
         <fields>CREATED_DATE</fields>
         <relatedList>Song__c.Album__c</relatedList>
         <sortField>Order__c</sortField>

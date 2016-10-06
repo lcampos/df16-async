@@ -80,6 +80,10 @@
     <label>Playlist</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>Description__c</columns>
+        <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>

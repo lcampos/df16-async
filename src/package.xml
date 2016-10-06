@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>AppUtils</members>
         <members>DiscoverWeeklyBatch</members>
+        <members>TwilioUtils</members>
+        <members>ArtistDataService</members>
+        <members>ArtistDataQueueable</members>
         <name>ApexClass</name>
     </types>
     <types>
         <members>*</members>
         <name>ApexPage</name>
+    </types>
+    <types>
+        <members>ContactTrigger</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>Spotify</members>
@@ -15,11 +23,13 @@
     <types>
         <members>Album__c</members>
         <members>Artist__c</members>
+        <members>Contact</members>
         <members>Play_History__c</members>
         <members>Playlist_Item__c</members>
         <members>Playlist__c</members>
         <members>Related_Artists__c</members>
         <members>Song__c</members>
+        <members>TwilioConfig__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -30,6 +40,7 @@
     <types>
         <members>Album__c-Album Layout</members>
         <members>Artist__c-Artist Layout</members>
+        <members>Contact-Contact Layout</members>
         <members>Contact-Contact Layout</members>
         <members>Play_History__c-Play History Layout</members>
         <members>Playlist_Item__c-Playlist Item Layout</members>

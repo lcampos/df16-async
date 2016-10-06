@@ -8,6 +8,8 @@ Sample Force.com application to demo Async Apex.
 
 Make sure to have a sandbox or development org (https://developer.salesforce.com/).
 
+Install Twilio Helper Library for Salesforce https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1a000000AQzf
+
 #### Deploy using ANT
 
 1. Clone this repo to get the latest code:
