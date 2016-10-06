@@ -8,7 +8,9 @@ Sample Force.com application to demo Async Apex.
 
 Make sure to have a sandbox or development org (https://developer.salesforce.com/).
 
-Install Twilio Helper Library for Salesforce https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1a000000AQzf
+Install Twilio Helper Library for Salesforce https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1a000000AQzf. Make sure you update the TwilioConfig custom setting with your twilio account data.
+
+Will need to create a REST service on https://www.mockable.io to be able to run queueable apex job.
 
 #### Deploy using ANT
 

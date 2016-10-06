@@ -60,12 +60,15 @@ global with sharing class DiscoverWeeklyBatch implements Database.Batchable<SObj
             }
         }
 
-        //Map<Id, Id> mapSongsPerArtist = new Map<Id, Id>();
-        //AppUtils.getRandomIntegerBetween(1,5)
         Map<Id, List<Id>> mapSongsPerArtist = new Map<Id, List<Id>>();
         //Query for songs
         Set<Integer> rankSet = new Set<Integer>{1,2,3,4,5};
-        for (Song__c song : [select Id, Album__r.Artist__c, Order__c from Song__c where Album__r.Artist__c in :allRelatedArtists and Rank__c in :rankSet]) {
+        for (Song__c song : [select Id,
+                                    Album__r.Artist__c,
+                                    Order__c
+                                    from Song__c
+                                    where Album__r.Artist__c in :allRelatedArtists
+                                    and Rank__c in :rankSet]) {
 
             if (mapSongsPerArtist.containsKey(song.Album__r.Artist__c)) {
                 mapSongsPerArtist.get(song.Album__r.Artist__c).add(song.Id);
@@ -82,11 +85,8 @@ global with sharing class DiscoverWeeklyBatch implements Database.Batchable<SObj
             for (Id artistId : mapUserNewArtist.get(userId)) {
                 Playlist_Item__c pli = new Playlist_Item__c();
                 Integer listSize = mapSongsPerArtist.get(artistId).size() - 1;
-                System.debug('------- artistId = ' + artistId);
-                System.debug('------- listSize = ' + listSize);
                 Integer randomNum = AppUtils.getRandomIntegerBetween(1,listSize);
-                System.debug('------- randomNum = ' + randomNum);
-                pli.Song__c = mapSongsPerArtist.get(artistId).get(randomNum); //AppUtils.getRandomIntegerBetween(1,listSize));
+                pli.Song__c = mapSongsPerArtist.get(artistId).get(randomNum);
                 pli.Playlist__c = mapDiscoverWeekly.get(userId).Id;
                 lPlaylistItems.add(pli);
             }
